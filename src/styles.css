@@ -162,11 +162,11 @@ select {
 	font-weight: bold;
 }
 
-#application-form input[type='submit'] {
+.form-group input[type='submit'] {
 	background-color: #2563eb;
-	width: 120px;
+	width: 100%;
 	min-width: 0;
-	padding: 16px;
+	padding: 8px;
 	color: #fff;
 	font-size: 1.25rem;
 	font-weight: bold;
@@ -297,6 +297,11 @@ select {
 	
 	  .form-group textarea {
 		width: 80%;
+	  }
+
+	  .form-group input[type='submit']{
+		width: 20%;
+		padding: 8px;
 	  }
 
   }
